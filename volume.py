@@ -24,7 +24,7 @@ sample i3 config:
 """
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-v", help="absolute volume like '50%', relative change like '-10%' or 'mute-toggle'")
+parser.add_argument("-v", help="absolute volume like '50%', relative change like '-10%'")
 parser.add_argument("-m", help="mute: toggle, true or false")
 
 def get_cmd_output(command):
